@@ -87,11 +87,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/***** TODO remove this later to make sure *****/
+html, body {
+    width: 100%;
+}
+
+/***** Header flexbox styling *****/
+
+header img {
+    width: 100%;
+}
+
 header, footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    width: 100%;
 }
 
 header .content-wrapper {
@@ -99,12 +111,14 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    width: 100%;
 }
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 header nav ul {
@@ -112,32 +126,45 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
+    width: 100%;
 }
 
-footer .social-icons {
+/***** Main flexbox styling *****/
+main {
+    background: green;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
 }
 
-footer .social-icons ul {
+main img {
+    width: 100%;
+}
+
+main .content-wrapper {
+    width: 100%;
+}
+
+.newsletter-signup {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
-footer .social {
+.form-description {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.form {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
-}
-
-.hero-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-flow: column nowrap;
 }
 
 .features {
@@ -146,19 +173,30 @@ footer .social {
     align-items: center;
 }
 
+.features .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
 .features .features-items {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
-.reviews {
+.reviews .content-wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    background: red;
+    flex-flow: column nowrap;
 }
 
+
+  /***** About page-specific main styling *****/
 .mission {
     display: flex;
     justify-content: center;
@@ -179,6 +217,8 @@ footer .social {
     flex-flow: column wrap;
 }
 
+  /***** Faq page specific main styling *****/
+
 .faq {
     display: flex;
     justify-content: center;
@@ -192,6 +232,29 @@ footer .social {
     flex-flow: column wrap;
 
 }
+
+
+/***** Footer flexbox styling *****/
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-icons ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
 
 
 
