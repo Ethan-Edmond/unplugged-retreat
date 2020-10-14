@@ -273,6 +273,25 @@ main .hero-area h1 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 9% 6%;
+}
+
+.mission h1 {
+    margin: 0;
+}
+
+.mission p {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 9% 6%;
+    background: red;
 }
 
 
@@ -284,7 +303,6 @@ main .hero-area h1 {
     align-items: center;
     flex-flow: row wrap;
     padding: 9% 6%;
-    background: red;
     width: 100%;
     box-sizing: border-box;
 }
@@ -294,7 +312,6 @@ main .hero-area h1 {
     justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
-    background: blue;
     width: 100%;
 }
 
