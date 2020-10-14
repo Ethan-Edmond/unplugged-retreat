@@ -220,6 +220,12 @@ main .hero-area h1 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: red;
+    padding: 9% 6%;
+}
+
+.features h1, .features p {
+    margin: 0;
 }
 
 .features .content-wrapper {
@@ -234,6 +240,15 @@ main .hero-area h1 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: blue;
+    padding: 13%;
+    padding-bottom: 0;
+}
+
+.features article {
+    padding: 13% 9%;
+    background: green;
+    text-align: center;
 }
 
 .reviews .content-wrapper{
