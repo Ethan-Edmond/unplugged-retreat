@@ -250,7 +250,6 @@ main .hero-area h1 {
 
 .reviews {
     padding: 9% 6%;
-    background: red;
 }
 
 .reviews .content-wrapper{
@@ -276,19 +275,6 @@ main .hero-area h1 {
     flex-flow: row wrap;
 }
 
-.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-.contact address {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-}
 
   /***** Faq page specific main styling *****/
 
@@ -308,6 +294,26 @@ main .hero-area h1 {
 
 
 /***** Footer flexbox styling *****/
+
+footer {
+    background: red;
+}
+
+footer .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 8%;
+}
+
+footer .contact address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
 footer .social-icons {
     display: flex;
     justify-content: center;
@@ -319,6 +325,7 @@ footer .social-icons ul {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    list-style-type: none;
 }
 
 footer .social {
@@ -326,8 +333,12 @@ footer .social {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    margin-bottom: 14%;
 }
 
+footer p {
+    margin: 0;
+}
 
 
 
