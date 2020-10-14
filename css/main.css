@@ -220,7 +220,6 @@ main .hero-area h1 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background: red;
     padding: 9% 6%;
 }
 
@@ -240,15 +239,18 @@ main .hero-area h1 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background: blue;
     padding: 13%;
     padding-bottom: 0;
 }
 
 .features article {
     padding: 13% 9%;
-    background: green;
     text-align: center;
+}
+
+.reviews {
+    padding: 9% 6%;
+    background: red;
 }
 
 .reviews .content-wrapper{
@@ -258,6 +260,13 @@ main .hero-area h1 {
     flex-flow: row wrap;
 }
 
+.reviews img {
+    width: 100%;
+}
+
+.reviews p {
+    margin: 2%;
+}
 
   /***** About page-specific main styling *****/
 .mission {
