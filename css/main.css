@@ -110,7 +110,7 @@ header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     width: 100%;
 }
 
@@ -118,6 +118,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-flow: row wrap;
     width: 100%;
 }
 
@@ -147,6 +148,13 @@ main .content-wrapper {
     width: 100%;
 }
 
+main .hero-area {
+    display: flex;
+    justify-contents: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 .newsletter-signup {
     display: flex;
     justify-content: center;
@@ -171,6 +179,7 @@ main .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .features .content-wrapper {
@@ -184,7 +193,7 @@ main .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
 }
 
 .reviews .content-wrapper{
@@ -192,7 +201,7 @@ main .content-wrapper {
     justify-content: flex-start;
     align-items: center;
     background: red;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
 }
 
 
@@ -201,13 +210,14 @@ main .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 
 .contact address {
@@ -223,14 +233,14 @@ main .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
-
+    flex-flow: row wrap;
 }
 
 
