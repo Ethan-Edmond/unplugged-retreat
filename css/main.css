@@ -182,7 +182,15 @@ main .hero-area h1 {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    background: red;
+    padding: 9% 6%;
+}
+
+.newsletter-signup h3, .newsletter-signup p {
+    margin: 0px;
+}
+
+.newsletter-signup p {
+    margin-bottom: 9%;
 }
 
 .form-description {
@@ -196,6 +204,15 @@ main .hero-area h1 {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+    width: 100%;
+    margin: 2% 0 6% 0;
+}
+
+.form input {
+    width: 100%;
+    margin: 2.2% 0px;
+    padding: 0;
+    border: 0;
 }
 
 .features {
