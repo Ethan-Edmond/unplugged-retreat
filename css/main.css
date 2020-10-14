@@ -164,8 +164,14 @@ main .hero-area {
     display: flex;
     justify-contents: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     background: red;
+    height: 500px;
+    padding: 11% 6%;
+}
+
+main .hero-area h1 {
+    margin: 0;
 }
 
 .newsletter-signup {
