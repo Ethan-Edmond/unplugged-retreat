@@ -291,7 +291,6 @@ main .hero-area h1 {
     align-items: center;
     flex-flow: row wrap;
     padding: 10% 6%;
-    background: red;
 }
 
 .contact-section p, .contact-section h1{
