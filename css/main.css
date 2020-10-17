@@ -279,11 +279,11 @@ main .hero-area h1 {
 
   /***** About page-specific main styling *****/
 
-.mission {
+.mission-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     padding: 9% 6%;
 }
 
@@ -583,6 +583,24 @@ footer p {
 
     .reviews h3, .reviews p {
         margin: 0;
+    }
+
+      /***** About page main styling *****/
+
+    .mission-content {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 100px 65px;
+    }
+
+    .mission h1 {
+        margin-bottom: 40px;
+    }
+
+    .mission p {
+        margin: 0;
+        width: 49%;
     }
 
     /***** Footer styling *****/
