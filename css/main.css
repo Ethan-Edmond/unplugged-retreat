@@ -323,10 +323,6 @@ main .hero-area h1 {
   /***** Faq page specific main styling *****/
 
 .faq {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     padding: 9% 6%;
     width: 100%;
     box-sizing: border-box;
@@ -337,6 +333,10 @@ main .hero-area h1 {
     justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
+    width: 100%;
+}
+
+.faq .question {
     width: 100%;
 }
 
