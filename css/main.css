@@ -551,7 +551,6 @@ footer p {
     }
 
     .features {
-        background: red;
         padding: 100px 65px 0 65px;
     }
 
@@ -564,6 +563,28 @@ footer p {
         box-sizing: border-box;
         padding: 0 70px 50px 70px;
     }
+
+    .reviews {
+        padding: 100px 65px;
+    }
+
+    .reviews article {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reviews img {
+        width: 49%;
+    }
+
+    .reviews article div {
+        width: 49%;
+    }
+
+    .reviews h3, .reviews p {
+        margin: 0;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
