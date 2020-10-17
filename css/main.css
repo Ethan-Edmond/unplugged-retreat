@@ -336,6 +336,11 @@ main .hero-area h1 {
     width: 100%;
 }
 
+.faq h1 {
+    margin-top: 0;
+    width: 100%;
+}
+
 .faq .question {
     width: 100%;
 }
@@ -616,6 +621,20 @@ footer p {
     .contact-column {
         width: 45%;
         margin: 0;
+    }
+
+      /***** Faq page main styling *****/
+
+    .faq {
+        padding: 100px 65px;
+    }
+
+    .faq .content-wrapper {
+        justify-content: space-between;
+    }
+
+    .faq .question {
+        width: 45%;
     }
 
     /***** Footer styling *****/
