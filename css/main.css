@@ -166,7 +166,12 @@ main .hero-area {
     background-size: cover;
     background-position: top;
     height: 500px;
-    padding: 11% 6%;
+    padding: 0;
+    width: 100%;
+}
+
+main .hero-area .content-wrapper {
+    padding: 9% 6%;
 }
 
 main .hero-area h1 {
@@ -209,6 +214,10 @@ main .hero-area h1 {
     margin: 2.2% 0px;
     padding: 0;
     border: 0;
+}
+
+.form h3 {
+    width: 100%;
 }
 
 .features {
@@ -504,7 +513,6 @@ footer p {
     /***** Hero area *****/
 
     main .hero-area {
-        width: 100%;
         padding: 0px;
         height: 600px;
     }
