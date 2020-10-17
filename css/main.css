@@ -296,20 +296,22 @@ main .hero-area h1 {
     margin-bottom: 3%;
 }
 
-.contact-section {
+.contact-section .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     padding: 10% 6%;
+    box-sizing: border-box;
 }
 
-.contact-section p, .contact-section h1{
+.contact-column {
+    width: 100%;
+}
+
+.contact-section p, .contact-section h1 {
     margin: 0;
-}
-
-.contact-section h3 {
-    margin: 5% 0;
+    width: 100%;
 }
 
 .contact-section .content-wrapper {
@@ -601,6 +603,19 @@ footer p {
     .mission p {
         margin: 0;
         width: 49%;
+    }
+
+    .contact-section .content-wrapper {
+        background: red;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        padding: 100px 65px;
+    }
+
+    .contact-column {
+        width: 45%;
+        margin: 0;
     }
 
     /***** Footer styling *****/
