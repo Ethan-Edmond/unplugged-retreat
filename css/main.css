@@ -182,8 +182,13 @@ main .hero-area h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column nowrap;
     padding: 9% 6%;
+}
+.newsletter-signup .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
 .newsletter-signup h3, .newsletter-signup p {
@@ -519,6 +524,25 @@ footer p {
 
     main .hero-area .content-wrapper {
         padding: 100px 65px ;
+        box-sizing: border-box;
+    }
+
+    .newsletter-signup {
+        width: 100%;
+        padding: 100px 65px;
+        box-sizing: border-box;
+        flex-flow: row wrap;
+    }
+
+    .newsletter-signup .content-wrapper {
+        flex-flow: row wrap;
+    }
+
+    .form-description {
+        width: 50%;
+    }
+    .form {
+        width: 50%;
     }
 }
 
