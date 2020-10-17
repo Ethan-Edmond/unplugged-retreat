@@ -320,6 +320,7 @@ main .hero-area h1 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 100%;
 }
 
 .contact-section p, .contact-section h1 {
@@ -327,7 +328,7 @@ main .hero-area h1 {
 }
 
 
-  /***** Faq page specific main styling *****/
+  /***** Faq Style *****/
 
 .faq {
     display: flex;
@@ -494,95 +495,95 @@ footer p, footer ul {
 @media only screen and (min-width: 768px) {
     /*Tablet styles here*/
 
-    /***** Header styling *****/
+    .content-wrapper {
+        width: 83%;
+        padding: 100px 0;
+    }
+
+    /***** Tablet Header Style *****/
 
     header .content-wrapper {
+        width: 83%;
         justify-content: space-between;
         padding: 30px 0;
-    }
-    header a {
-        width: 50%;
-    }
-
-    header img {
-        margin: 0px 65px;
-        width: 57%;
-    }
-
-    header nav {
-        order: 2;
-        width: 50%;
-        padding: 0;
-    }
-
-    header nav ul {
-        justify-content: flex-end;
-        margin-right: 65px;
-    }
-
-    header nav ul li {
-        margin-left: 40px;
     }
 
     .header-divider {
         display: none;
     }
 
-    /***** Hero area *****/
+    header a {
+        text-align: left;
+        width: 50%;
+        padding: 0;
+    }
+
+    header img {
+        width: 68%;
+    }
+
+    header nav {
+        width: 20%;
+    }
+
+    header nav ul {
+        padding: 0;
+    }
+
+    /***** Tablet Main Style *****/
+
+      /***** Tablet Hero Style *****/
 
     main .hero-area {
-        padding: 0px;
         height: 600px;
     }
 
     main .hero-area .content-wrapper {
-        padding: 100px 65px ;
-        box-sizing: border-box;
+        padding: 100px 0;
     }
 
-    .newsletter-signup {
-        width: 100%;
-        padding: 100px 65px;
-        box-sizing: border-box;
-        flex-flow: row wrap;
-    }
+      /***** Tablet Newsletter Signup Style *****/
 
     .newsletter-signup .content-wrapper {
+        justify-content: space-between;
         flex-flow: row wrap;
     }
 
     .form-description {
         box-sizing: border-box;
         padding-right: 70px;
-        width: 50%;
+        width: 45%;
+        padding: 0;
     }
 
     .form {
         box-sizing: border-box;
         padding-left: 30px;
-        width: 50%;
+        width: 45%;
+        margin: 0;
+        padding: 0;
     }
+
+      /***** Tablet Feature Style *****/
 
     .features {
-        padding: 100px 65px 0 65px;
+        background: green;
     }
 
-    .features .features-items {
-        padding: 40px 0 50px 0;
+    .features-items {
+        width: 100%;
     }
 
     .features article {
-        flex-basis: 50%;
-        box-sizing: border-box;
-        padding: 0 70px 50px 70px;
+        width: 32%;
+        margin: 55px 9%;
     }
 
-    .reviews {
-        padding: 100px 65px;
-    }
+      /***** Tablet Review Style *****/
 
     .reviews article {
         display: flex;
+        width: 100%;
         justify-content: space-between;
     }
 
@@ -598,13 +599,12 @@ footer p, footer ul {
         margin: 0;
     }
 
-      /***** About page main styling *****/
+      /***** Tablet About Style *****/
 
-    .mission-content {
-        flex-flow: row wrap;
+        /***** Tablet Mission Style *****/
+
+    .mission .content-wrapper {
         justify-content: space-between;
-        align-items: flex-start;
-        padding: 100px 65px;
     }
 
     .mission h1 {
@@ -616,52 +616,58 @@ footer p, footer ul {
         width: 49%;
     }
 
+        /***** Tablet Contact Style *****/
+
     .contact-section .content-wrapper {
+        display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
+        padding: 100px 0;
+        flex-flow: row wrap;
+    }
+
+    .contact-section h1 {
         width: 100%;
-        padding: 100px 65px;
     }
 
     .contact-column {
         width: 45%;
-        margin: 0;
     }
 
-      /***** Faq page main styling *****/
-
-    .faq {
-        padding: 100px 65px;
-    }
+      /***** Tablet Faq Style *****/
 
     .faq .content-wrapper {
         justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .faq h1 {
+        width: 100%;
     }
 
     .faq .question {
-        flex-basis: 40%;
+        flex-basis: 44%;
     }
 
-    .faq h2 {
-        width: 100%;
-    }
-
-    /***** Footer styling *****/
+    /***** Tablet Footer Style *****/
 
     footer .content-wrapper {
-        width: 100%;
-    }
-    .footer-content {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: flex-start;
-        padding: 100px 65px;
-        width: 100%;
-        box-sizing: border-box;
     }
-    .footer-content .contact {
-        padding: 0;
+
+    footer .contact {
+        margin: 0;
+    }
+
+    .contact, .social {
         width: 50%;
+    }
+
+    .social ul {
+        margin: 0;
+        padding: 0;
     }
 
     .contact h3 {
@@ -670,12 +676,6 @@ footer p, footer ul {
 
     .social h3 {
         margin: 0 0 30px 0;
-    }
-
-    .footer-content .social {
-        padding: 0;
-        width: 50%;
-        margin: 0;
     }
 }
 
