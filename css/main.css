@@ -245,10 +245,10 @@ main .hero-area h1 {
     flex-flow: column nowrap;
 }
 
-.features .features-items {
+.features-items {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: row wrap;
     padding: 13%;
     padding-bottom: 0;
@@ -567,7 +567,7 @@ footer p {
     }
 
     .features article {
-        width: 50%;
+        flex-basis: 50%;
         box-sizing: border-box;
         padding: 0 70px 50px 70px;
     }
@@ -634,7 +634,11 @@ footer p {
     }
 
     .faq .question {
-        width: 45%;
+        flex-basis: 40%;
+    }
+
+    .faq h2 {
+        width: 100%;
     }
 
     /***** Footer styling *****/
