@@ -87,12 +87,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/***** Text Style *****/
+
+body {
+    font-famliy: "Open Sans", sans-serif;
+}
+
+h1, h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+/***** Sizing *****/
+
 .content-wrapper {
     width: 90%;
     padding: 50px 0;
 }
 
-/***** Header Style *****/
+  /***** Header Style *****/
 
 header, footer {
     display: flex;
@@ -143,7 +155,7 @@ header nav ul {
     padding: 17px 0px;
 }
 
-/***** Main Style *****/
+  /***** Main Style *****/
 
 main {
     display: flex;
@@ -152,7 +164,7 @@ main {
     flex-flow: column nowrap;
 }
 
-  /***** Hero Style *****/
+    /***** Hero Style *****/
 
 main .hero-area {
     display: flex;
@@ -170,7 +182,7 @@ main .hero-area h1 {
     margin: 0;
 }
 
-  /***** Newsletter Signup Style *****/
+    /***** Newsletter Signup Style *****/
 
 .newsletter-signup {
     display: flex;
@@ -221,7 +233,7 @@ main .hero-area h1 {
     width: 100%;
 }
 
-  /***** Feature Style *****/
+    /***** Feature Style *****/
 
 .features {
     display: flex;
@@ -257,7 +269,7 @@ main .hero-area h1 {
     margin: 0;
 }
 
-  /***** Review Style *****/
+    /***** Review Style *****/
 
 .reviews {
     display: flex;
@@ -287,9 +299,9 @@ main .hero-area h1 {
     margin: 20px 0 0 0;
 }
 
-  /***** About Style *****/
+    /***** About Style *****/
 
-    /***** Mission Style *****/
+      /***** Mission Style *****/
 
 .mission {
     display: flex;
@@ -313,7 +325,7 @@ main .hero-area h1 {
     margin: 10px 0 0 0;
 }
 
-    /***** Contact Style *****/
+      /***** Contact Style *****/
 
 .contact-section {
     display: flex;
@@ -328,7 +340,7 @@ main .hero-area h1 {
 }
 
 
-  /***** Faq Style *****/
+    /***** Faq Style *****/
 
 .faq {
     display: flex;
@@ -355,7 +367,7 @@ main .hero-area h1 {
     margin: 0 0 15px 0;
 }
 
-/***** Footer flexbox styling *****/
+  /***** Footer flexbox styling *****/
 
 footer .contact {
     display: flex;
@@ -401,7 +413,6 @@ footer .social {
 footer p, footer ul {
     margin: 0;
 }
-
 
 
 /* ==========================================================================
@@ -500,7 +511,7 @@ footer p, footer ul {
         padding: 100px 0;
     }
 
-    /***** Tablet Header Style *****/
+      /***** Tablet Header Style *****/
 
     header .content-wrapper {
         width: 83%;
@@ -530,9 +541,9 @@ footer p, footer ul {
         padding: 0;
     }
 
-    /***** Tablet Main Style *****/
+      /***** Tablet Main Style *****/
 
-      /***** Tablet Hero Style *****/
+        /***** Tablet Hero Style *****/
 
     main .hero-area {
         height: 600px;
@@ -542,7 +553,7 @@ footer p, footer ul {
         padding: 100px 0;
     }
 
-      /***** Tablet Newsletter Signup Style *****/
+        /***** Tablet Newsletter Signup Style *****/
 
     .newsletter-signup .content-wrapper {
         justify-content: space-between;
@@ -564,7 +575,7 @@ footer p, footer ul {
         padding: 0;
     }
 
-      /***** Tablet Feature Style *****/
+        /***** Tablet Feature Style *****/
 
     .features h1 {
         width: 100%;
@@ -580,7 +591,7 @@ footer p, footer ul {
         margin: 55px 9%;
     }
 
-      /***** Tablet Review Style *****/
+        /***** Tablet Review Style *****/
 
     .reviews article {
         display: flex;
@@ -600,9 +611,9 @@ footer p, footer ul {
         margin: 0;
     }
 
-      /***** Tablet About Style *****/
+        /***** Tablet About Style *****/
 
-        /***** Tablet Mission Style *****/
+          /***** Tablet Mission Style *****/
 
     .mission .content-wrapper {
         justify-content: space-between;
@@ -617,7 +628,7 @@ footer p, footer ul {
         width: 49%;
     }
 
-        /***** Tablet Contact Style *****/
+          /***** Tablet Contact Style *****/
 
     .contact-section .content-wrapper {
         display: flex;
@@ -635,7 +646,7 @@ footer p, footer ul {
         width: 45%;
     }
 
-      /***** Tablet Faq Style *****/
+        /***** Tablet Faq Style *****/
 
     .faq .content-wrapper {
         justify-content: space-between;
@@ -650,7 +661,7 @@ footer p, footer ul {
         flex-basis: 44%;
     }
 
-    /***** Tablet Footer Style *****/
+      /***** Tablet Footer Style *****/
 
     footer .content-wrapper {
         display: flex;
@@ -687,7 +698,7 @@ footer p, footer ul {
         width: 80%;
     }
 
-    /***** Desktop Header Style *****/
+      /***** Desktop Header Style *****/
 
     header .content-wrapper {
         width: 80%;
@@ -702,9 +713,9 @@ footer p, footer ul {
         width: 14%;
     }
 
-    /***** Desktop Main Style *****/
+      /***** Desktop Main Style *****/
 
-      /***** Desktop Hero Style *****/
+        /***** Desktop Hero Style *****/
 
     main .hero-area h1 {
         width: 75%;
@@ -714,7 +725,7 @@ footer p, footer ul {
         background-position: center;
     }
 
-      /***** Desktop Newsletter Signup Style *****/
+        /***** Desktop Newsletter Signup Style *****/
 
     .newsletter-signup .content-wrapper {
         width: 73%;
@@ -729,14 +740,14 @@ footer p, footer ul {
         width: 40%;
     }
 
-      /***** Desktop Feature Style *****/
+        /***** Desktop Feature Style *****/
 
     .features article {
         width: 20%;
         margin: 55px 64px;
     }
 
-      /***** Desktop Review Style *****/
+        /***** Desktop Review Style *****/
 
     .reviews h1 {
         margin: 0 0 100px 0;
@@ -750,27 +761,27 @@ footer p, footer ul {
         width: 48%;
     }
 
-      /***** Desktop About Style *****/
+        /***** Desktop About Style *****/
 
-        /***** Desktop Mission Style *****/
+          /***** Desktop Mission Style *****/
 
     .mission p {
         width: 47%;
     }
 
-        /***** Desktop Contact Style *****/
+          /***** Desktop Contact Style *****/
 
     .contact-column {
         width: 47%;
     }
 
-      /***** Desktop Faq Style *****/
+        /***** Desktop Faq Style *****/
 
     .faq .question {
         flex-basis: 47%;
     }
 
-    /***** Desktop Footer Style *****/
+      /***** Desktop Footer Style *****/
 
     footer .content-wrapper {
         justify-content: space-between;
