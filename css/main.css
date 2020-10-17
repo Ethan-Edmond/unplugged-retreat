@@ -172,6 +172,7 @@ main .hero-area {
 
 main .hero-area .content-wrapper {
     padding: 9% 6%;
+    box-sizing: border-box;
 }
 
 main .hero-area h1 {
@@ -606,7 +607,6 @@ footer p {
     }
 
     .contact-section .content-wrapper {
-        background: red;
         justify-content: space-between;
         align-items: flex-start;
         width: 100%;
