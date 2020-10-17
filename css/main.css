@@ -539,9 +539,14 @@ footer p {
     }
 
     .form-description {
+        box-sizing: border-box;
+        padding-right: 70px;
         width: 50%;
     }
+
     .form {
+        box-sizing: border-box;
+        padding-left: 30px;
         width: 50%;
     }
 }
