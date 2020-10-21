@@ -714,7 +714,7 @@ input[type=button] {
     main .hero-area {
         height: 600px;
         background-position: 50% 40%;
-        background-size: auto 130%;
+        background-size: auto 134%;
     }
 
     main .hero-area .content-wrapper {
@@ -921,6 +921,7 @@ input[type=button] {
 
     main .hero-area {
         background-position: center;
+        background-size: cover;
     }
 
         /***** Desktop Newsletter Signup Sizing *****/
