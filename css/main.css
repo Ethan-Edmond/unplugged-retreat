@@ -412,6 +412,28 @@ main .hero-area h1 {
     margin: 10px 0 0 0;
 }
 
+      /***** Map Sizing *****/
+
+.map {
+    width: 100%;
+}
+
+.map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 125%;
+    position: relative;
+    overflow: hidden;
+}
+
+.map figure iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
       /***** Contact Sizing *****/
 
 .contact-section {
