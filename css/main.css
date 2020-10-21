@@ -512,20 +512,21 @@ footer .social-icons {
     align-items: center;
 }
 
-footer .social-icons ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    list-style-type: none;
-}
-
 footer .social {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
     margin: 0 0 10px 0;
+}
+
+.social i {
+    font-size: 1.125em;
+    border: 0.5625em solid #527158;
+    border-radius: 1.125em;
+    background: #527158;
+    color: #e2e3ed;
+    margin: 0px 18px;
 }
 
 footer p, footer ul {
@@ -827,11 +828,6 @@ input[type=button] {
 
     .contact, .social {
         width: 50%;
-    }
-
-    .social ul {
-        margin: 0;
-        padding: 0;
     }
 
     .contact h3 {
