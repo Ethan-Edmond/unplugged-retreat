@@ -442,6 +442,10 @@ main .hero-area h1 {
 
   /***** Footer flexbox styling *****/
 
+footer {
+    padding-bottom: 20px;
+}
+
 footer .contact {
     display: flex;
     justify-content: center;
