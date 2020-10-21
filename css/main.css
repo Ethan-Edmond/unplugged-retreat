@@ -356,6 +356,11 @@ main .hero-area h1 {
     margin: 60px 0 0 0;
 }
 
+.features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 .features p {
     margin: 0;
 }
