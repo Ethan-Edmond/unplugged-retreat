@@ -769,6 +769,12 @@ input[type=button] {
         width: 49%;
     }
 
+          /***** Tablet Map Sizing *****/
+
+    .map figure {
+        padding-bottom: 45.6%;
+    }
+
           /***** Tablet Contact Sizing *****/
 
     .contact-section .content-wrapper {
@@ -912,6 +918,12 @@ input[type=button] {
 
     .mission p {
         width: 47%;
+    }
+
+          /***** Desktop Map Sizing *****/
+
+    .map figure {
+        padding-bottom: 37.5%;
     }
 
           /***** Desktop Contact Sizing *****/
