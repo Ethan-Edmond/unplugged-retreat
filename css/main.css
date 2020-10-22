@@ -90,12 +90,9 @@ textarea {
 /*
 TODO:
   refactor
-  check browser compatibility
 */
 
-/***** Text Style *****/
-
-  /***** Global Styles *****/
+/***** Global Styles *****/
 
 html {
     font-size: 16px;
@@ -129,9 +126,6 @@ h1 {
 
 }
 
-.reviews h1 {
-    line-height: 1;
-}
 
 h3, h4 {
     font-family: "Poppins", sans-serif;
@@ -160,49 +154,14 @@ nav ul li a {
     font-weight: bold;
 }
 
-/***** Coloring *****/
-
-header {
-    background-color: #202322;
-}
-
-.newsletter-signup {
-    background-color: #527158;
-}
-
-.features {
-    background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
-    background-size: cover;
-}
-
-.reviews {
-    background-color: #2a423a;
-}
-
-.faq {
-    background-color: #527158;
-}
-
-.mission {
-    background-color: #527158;
-}
-
-.contact-section {
-    background-color: #2a423a;
-}
-
-footer {
-    background-color: #202322;
-}
-
-/***** Sizing *****/
+/***** Global Sizing *****/
 
 .content-wrapper {
     width: 90%;
     padding: 50px 0;
 }
 
-  /***** Header Sizing *****/
+/***** Header Style *****/
 
 header, footer {
     display: flex;
@@ -220,6 +179,10 @@ header .content-wrapper {
     width: 100%;
     box-sizing: border-box;
     padding: 0;
+}
+
+header {
+    background-color: #202322;
 }
 
 header a {
@@ -257,7 +220,7 @@ header nav ul {
     padding: 17px 0px;
 }
 
-  /***** Main Sizing *****/
+/***** Main Style *****/
 
 main {
     display: flex;
@@ -266,7 +229,7 @@ main {
     flex-flow: column nowrap;
 }
 
-    /***** Hero Sizing *****/
+  /***** Hero Style *****/
 
 main .hero-area {
     display: flex;
@@ -283,9 +246,10 @@ main .hero-area h1 {
     margin: 0;
 }
 
-    /***** Newsletter Signup Sizing *****/
+  /***** Newsletter Signup Style *****/
 
 .newsletter-signup {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -338,9 +302,33 @@ main .hero-area h1 {
     width: 100%;
 }
 
-    /***** Feature Sizing *****/
+input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+}
+
+input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+  /***** Feature Style *****/
 
 .features {
+    background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,9 +369,10 @@ main .hero-area h1 {
     margin: 0;
 }
 
-    /***** Review Sizing *****/
+  /***** Review Style *****/
 
 .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -397,6 +386,7 @@ main .hero-area h1 {
 }
 
 .reviews h1 {
+    line-height: 1;
     margin: 0 0 30px 0;
 }
 
@@ -407,11 +397,12 @@ main .hero-area h1 {
     margin: 20px 0 0 0;
 }
 
-    /***** About Sizing *****/
+  /***** About Style *****/
 
-      /***** Mission Sizing *****/
+    /***** Mission Style *****/
 
 .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -434,7 +425,7 @@ main .hero-area h1 {
     margin: 10px 0 0 0;
 }
 
-      /***** Map Sizing *****/
+    /***** Map Style *****/
 
 .map {
     width: 100%;
@@ -456,9 +447,10 @@ main .hero-area h1 {
     left: 0;
 }
 
-      /***** Contact Sizing *****/
+    /***** Contact Style *****/
 
 .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -475,9 +467,10 @@ main .hero-area h1 {
 }
 
 
-    /***** Faq Sizing *****/
+  /***** Faq Style *****/
 
 .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -502,9 +495,10 @@ main .hero-area h1 {
     margin: 0 0 15px 0;
 }
 
-  /***** Footer flexbox styling *****/
+  /***** Footer Style *****/
 
 footer {
+    background-color: #202322;
     padding-bottom: 20px;
 }
 
@@ -556,30 +550,6 @@ footer .social {
 
 footer p, footer ul {
     margin: 0;
-}
-
-/***** Input Sizing *****/
-
-input[type=text] {
-    box-sizing: border-box;
-    width: 100%;
-    color: #2a423a;
-    font-style: italic;
-    padding: 1em;
-}
-
-input[type=button] {
-    width: 100%;
-    padding: 20px 0;
-    margin-top: 20px;
-    background-color: #2a423a;
-    font-family: "Poppins", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 1.125em;
-    color: #e2e3ed;
-    border: none;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 
@@ -683,7 +653,7 @@ input[type=button] {
         font-size: 1em;
     }
 
-      /***** Tablet Header Sizing *****/
+    /***** Tablet Header Style *****/
 
     header .content-wrapper {
         width: 83%;
@@ -717,9 +687,9 @@ input[type=button] {
         padding: 0;
     }
 
-      /***** Tablet Main Sizing *****/
+    /***** Tablet Main Style *****/
 
-        /***** Tablet Hero Sizing *****/
+      /***** Tablet Hero Style *****/
 
     main .hero-area {
         height: 600px;
@@ -735,7 +705,7 @@ input[type=button] {
         width: 80%;
     }
 
-        /***** Tablet Newsletter Signup Sizing *****/
+      /***** Tablet Newsletter Signup Style *****/
 
     .newsletter-signup .content-wrapper {
         justify-content: space-between;
@@ -761,7 +731,7 @@ input[type=button] {
         padding: 0;
     }
 
-        /***** Tablet Feature Sizing *****/
+      /***** Tablet Feature Style *****/
 
     .features h1 {
         width: 100%;
@@ -781,7 +751,7 @@ input[type=button] {
         font-size: 5.14em;
     }
 
-        /***** Tablet Review Sizing *****/
+      /***** Tablet Review Style *****/
 
     .reviews article {
         display: flex;
@@ -805,9 +775,9 @@ input[type=button] {
         margin-bottom: 10px;
     }
 
-        /***** Tablet About Sizing *****/
+      /***** Tablet About Style *****/
 
-          /***** Tablet Mission Sizing *****/
+        /***** Tablet Mission Style *****/
 
     .mission .content-wrapper {
         justify-content: space-between;
@@ -822,13 +792,13 @@ input[type=button] {
         width: 49%;
     }
 
-          /***** Tablet Map Sizing *****/
+        /***** Tablet Map Style *****/
 
     .map figure {
         padding-bottom: 45.6%;
     }
 
-          /***** Tablet Contact Sizing *****/
+        /***** Tablet Contact Style *****/
 
     .contact-section .content-wrapper {
         display: flex;
@@ -846,7 +816,7 @@ input[type=button] {
         width: 45%;
     }
 
-        /***** Tablet Faq Sizing *****/
+      /***** Tablet Faq Style *****/
 
     .faq .content-wrapper {
         justify-content: space-between;
@@ -861,7 +831,7 @@ input[type=button] {
         flex-basis: 44%;
     }
 
-      /***** Tablet Footer Sizing *****/
+    /***** Tablet Footer Style *****/
 
     footer .content-wrapper {
         display: flex;
@@ -905,7 +875,7 @@ input[type=button] {
         font-size: 1.875em;
     }
 
-      /***** Desktop Header Sizing *****/
+    /***** Desktop Header Style *****/
 
     header .content-wrapper {
         width: 80%;
@@ -924,9 +894,9 @@ input[type=button] {
         width: 14%;
     }
 
-      /***** Desktop Main Sizing *****/
+    /***** Desktop Main Style *****/
 
-        /***** Desktop Hero Sizing *****/
+      /***** Desktop Hero Style *****/
 
     main .hero-area .content-wrapper {
         padding: 50px 0;
@@ -942,7 +912,7 @@ input[type=button] {
         background-size: cover;
     }
 
-        /***** Desktop Newsletter Signup Sizing *****/
+      /***** Desktop Newsletter Signup Style *****/
 
     .newsletter-signup .content-wrapper {
         width: 73%;
@@ -973,14 +943,14 @@ input[type=button] {
         font-size: 1.5em;
     }
 
-        /***** Desktop Feature Sizing *****/
+      /***** Desktop Feature Style *****/
 
     .features article {
         width: 20%;
         margin: 55px 64px;
     }
 
-        /***** Desktop Review Sizing *****/
+      /***** Desktop Review Style *****/
 
     .reviews h1 {
         margin: 0 0 100px 0;
@@ -998,34 +968,34 @@ input[type=button] {
         font-size: 1.875em;
     }
 
-        /***** Desktop About Sizing *****/
+      /***** Desktop About Style *****/
 
-          /***** Desktop Mission Sizing *****/
+        /***** Desktop Mission Style *****/
 
     .mission p {
         width: 47%;
     }
 
-          /***** Desktop Map Sizing *****/
+        /***** Desktop Map Style *****/
 
     .map figure {
         padding-bottom: 37.5%;
     }
 
-          /***** Desktop Contact Sizing *****/
+        /***** Desktop Contact Style *****/
 
     .contact-column {
         width: 47%;
     }
 
-        /***** Desktop Faq Sizing *****/
+      /***** Desktop Faq Style *****/
 
     .faq .question {
         flex-basis: 47%;
         margin-top: 45px;
     }
 
-      /***** Desktop Footer Sizing *****/
+    /***** Desktop Footer Style *****/
 
     footer .content-wrapper {
         justify-content: space-between;
